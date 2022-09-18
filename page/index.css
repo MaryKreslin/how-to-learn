@@ -7,15 +7,25 @@
 @import url(../blocks/content/section-subtitle/section-subtitle.css);
 @import url(../blocks/content/table/table.css);
 @import url(../blocks/content/feyman/feyman.css);
+@import url(../blocks/content/feyman/__link/feyman__link.css);
+@import url(../blocks/content/feyman/__subtitle/feyman__subtitle.css);
+@import url(../blocks/content/feyman/__title/feyman__title.css);
 @import url(../blocks/content/kaufman/kaufman.css);
+@import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/content/techniques/techniques.css);
 @import url(../blocks/content/video/video.css);
 @import url(../blocks/content/oakley/oakley.css);
 @import url(../blocks/content/khan/khan.css);
 @import url(../blocks/content/resourses/resourses.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/content/cards/cards.css);
 @import url(../blocks/content/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/content/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/content/cards/__description/cards__description.css);
+@import url(../blocks/content/cards/__image/cards__image.css);
+@import url(../blocks/content/cards/__item/cards__item.css);
+@import url(../blocks/content/cards/__title/cards__title.css);
+@import url(../blocks/rotation/rotation.css);
 
 .page {
   min-width: 1100px;

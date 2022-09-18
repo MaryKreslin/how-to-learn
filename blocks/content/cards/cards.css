@@ -1,0 +1,15 @@
+@import url(./__item/cards__item.css);
+@import url(./__image/cards__image.css);
+@import url(./__title/cards__title.css);
+@import url(./__description/cards__description.css);
+
+.cards{
+  min-width: 920px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding-inline-start: 0;
+  margin: 0;
+}

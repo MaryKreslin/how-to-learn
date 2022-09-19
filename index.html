@@ -15,7 +15,7 @@
         можете использовать в своей жизни? <a href="#" class="header__link">Узнать &rarr;</a>
       </p>
       <img src="./images/header-image.png" alt="Фрагмент картины Ф.Решетникова 'Опять двойка'" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <!--Секция description-->
@@ -74,17 +74,17 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <ul class="video__iframes">
-          <li class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" 
+          <li>
+            <iframe src="https://www.youtube.com/embed/arj7oStGLkU" 
             title="Tim Urban: Inside the mind of a master procrastinator | TED"  
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+            allowfullscreen class="video__iframe"></iframe>
           </li>
-          <li class="video__iframe">
+          <li>
             <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" 
             title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+            allowfullscreen class="video__iframe"></iframe>
           </li>
         </ul>
       </section>
@@ -159,7 +159,7 @@
       </section>
       <!-- Секция khan-->
       <section class="khan">
-        <article class="khan__container">
+        <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов 
@@ -169,12 +169,10 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic">
-              <img src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана 'Весь мир - школа'">
-            </div>            
+            <img src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана 'Весь мир - школа'" class="khan__book-pic">
             <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
-        </article>
+        </div>
       </section>
       <!-- Секция kaufman-->
       <section class="kaufman">
@@ -222,26 +220,34 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       <!-- Секция resources-->
       <section class="resourses">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resourses__logo-zone">
-          <a href="#" class="resourses__link">
-            <img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас" class="resourses__logo">
-          </a>
-          <a href="#" class="resourses__link">
-            <img src="./images/logo/resources-n1.svg" alt="Логотип Н1" class="resourses__logo">
-          </a>
-          <a href="#" class="resourses__link">
-            <img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка" class="resourses__logo">
-          </a>
-          <a href="#" class="resourses__link">
-            <img src="./images/logo/resources-polka.svg" alt="Логотип Полка" class="resourses__logo">
-          </a>
-        </div>
+        <ul class="resourses__logo-zone">
+          <li>
+            <a href="#" target="_blank" class="resourses__link">
+              <img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас" class="resourses__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="resourses__link">
+              <img src="./images/logo/resources-n1.svg" alt="Логотип Н1" class="resourses__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="resourses__link">
+              <img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка" class="resourses__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="resourses__link">
+              <img src="./images/logo/resources-polka.svg" alt="Логотип Полка" class="resourses__logo">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
